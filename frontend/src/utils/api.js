@@ -139,6 +139,6 @@ class Api {
   }
   }
   // Замените на адрес вашего бэкенда
-  const api = new Api('https://api.pinxit.students.nomoreparties.sbs/');
+  const api = new Api('https://api.pinxit.students.nomoreparties.sbs');
 
   export default api;
