@@ -17,9 +17,9 @@ mongoose.connect(DB_ADDRESS);
 app.use(cors({
   origin: [
     'http://pinxit.students.nomoreparties.sbs',
-    'https://pinxit.students.nomoreparties.sbs'
+    'https://pinxit.students.nomoreparties.sbs',
   ]
-}))
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
