@@ -1,3 +1,5 @@
 # Деплой приложения на сервер с использованием pm2
 
-Стартеркит проекта по автоматизации деплоя фронтенда и бэкенда при помощи pm2 (pm2 deploy)
+Адрес фронтенда: https://pinxit.students.nomoreparties.sbs/
+Адрес бекенда: https://api.pinxit.students.nomoreparties.sbs/
+IP: 158.160.65.48
