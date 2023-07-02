@@ -14,8 +14,8 @@ const app = express();
 mongoose.connect(DB_ADDRESS);
 
 // Только для локальных тестов. Не используйте это в продакшене
-app.use(cors);
-// с опциями все равно не работает(
+app.use(cors());
+// // с опциями все равно не работает(
 // app.use(cors({
 //   origin: [
 //     'http://pinxit.students.nomoreparties.sbs',
