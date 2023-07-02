@@ -14,12 +14,14 @@ const app = express();
 mongoose.connect(DB_ADDRESS);
 
 // Только для локальных тестов. Не используйте это в продакшене
-app.use(cors({
-  origin: [
-    'http://pinxit.students.nomoreparties.sbs',
-    'https://pinxit.students.nomoreparties.sbs',
-  ]
-}));
+app.use(cors);
+// с опциями все равно не работает(
+// app.use(cors({
+//   origin: [
+//     'http://pinxit.students.nomoreparties.sbs',
+//     'https://pinxit.students.nomoreparties.sbs',
+//   ]
+// }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
